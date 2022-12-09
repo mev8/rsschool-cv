@@ -13,3 +13,30 @@
 I'm interested in development in the field of front-end. I've always wondered how elements appear on the screen. I am friendly, responsible and willing to learn.
 
 ---
+
+## Skills
+
+* HTML
+* CSS / SASS
+* JavaScript
+* Git / GitHub
+---
+
+## Code Examples
+
+---
+
+## Education
+
+* Courses:
+
+  + IT Switch Course from GlobalLogic Education
+  + Front-end development from Prometheus
+
+---
+
+## Languages
+
+* Ukranian
+* Russian
+* English
