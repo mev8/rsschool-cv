@@ -1,16 +1,125 @@
+@font-face {
+	font-family: "Ubuntu";
+	src: url("./assets/fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("./assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("./assets/fonts/Lato/Lato-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("./assets/fonts/Lato/Lato-Italic.ttf") format("truetype");
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	background-color: #777;
-	color: #00f;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #333333;
+	background-color: #e1d5d5;
+}
+
+h1,
+h2 {
+	font-family: "Ubuntu", sans-serif;
+	margin: 10px;
 }
 
 .container {
+	max-width: 980px;
+	margin: 0 auto;
 }
 
 .header {
+	/* background-color: #979797; */
+}
+
+.header-menu {
+	background-color: #5b5858;
+}
+
+.menu-list {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+.menu-link {
+	display: block;
+	padding: 10px 20px;
+	margin: 0 8px;
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 5px solid transparent;
+	transition: all 0.5s;
+}
+
+.menu-link:hover {
+	border-bottom: 5px solid #100f0f;
+}
+
+.header-profile {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.profile-photo {
+	padding: 10px;
+}
+
+.profile-photo img {
+	width: 150px;
+	height: 150px;
+	border: 5px solid #565656;
+	border-radius: 50%;
+	filter: grayscale(1);
+}
+
+.profile-photo img:hover {
+	filter: grayscale(0);
+}
+
+.profile-title {
+	text-align: center;
+}
+
+.profile-title h1 {
+	font-size: 3rem;
+	letter-spacing: 7px;
+	margin: 40px 0;
+}
+
+.header-profile p {
+	font-size: 1.5rem;
 }
 
 .main {
+	background-color: pink;
 }
 
 .footer {
+	background-color: yellow;
 }
